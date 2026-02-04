@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  .container {
+    @apply px-4 mx-auto max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1140px] xl:max-w-[1320px];
+  }
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+
+  --color-background: #010410;
+
+  --spacing-sectionPadding: 75px;
+  --spacing-sectionMargin: 75px;
+}
