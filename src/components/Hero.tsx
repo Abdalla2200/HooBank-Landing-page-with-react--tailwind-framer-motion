@@ -46,7 +46,13 @@ export default function Hero() {
             Payment Method.
           </h1>
         </div>
-        <div className=""></div>
+        <div className="text-lg text-white/70 mt-8 max-w-[480px]">
+          <p>
+            Our team of experts uses a methodology to identify the credit cards
+            most likely to fit your needs.
+            <br /> We examine annual percentage rates, annual fees.
+          </p>
+        </div>
       </motion.div>
       <motion.div
         initial={{ x: 150, opacity: 0 }}
