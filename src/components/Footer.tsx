@@ -1,8 +1,14 @@
 import footerLogo from "../assets/logo.svg";
 import { socialLinks } from "../constants";
+import { motion } from "framer-motion";
 export default function Footer() {
   return (
-    <div className=" pt-sectionPadding mt-sectionMargin bg-[#06080d]">
+    <motion.div
+      initial={{ y: 300, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className=" pt-sectionPadding mt-sectionMargin bg-[#06080d]"
+    >
       <div className="container pt-16 pb-10 flex items-center justify-between  gap-6 flex-wrap">
         <div className="">
           <img src={footerLogo} alt="Logo" />
@@ -43,6 +49,6 @@ export default function Footer() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
