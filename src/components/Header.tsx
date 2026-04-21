@@ -16,10 +16,10 @@ export default function Header() {
       <ul className="flex items-center gap-6 sm:gap-14 ">
         {navLinks.map((link) => (
           <li
-            key={link}
-            className=" text-white/70 hover:text-white cursor-pointer duration-200"
+            key={link.id}
+            className=" text-white/70 hover:text-white cursor-pointer duration-200 text-[16px]"
           >
-            {link}
+            <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
       </ul>

@@ -13,7 +13,24 @@ import facebookLogo from "../assets/facebook.svg";
 import twitterLogo from "../assets/twitter.svg";
 import linkedinLogo from "../assets/linkedin.svg";
 
-export const navLinks = ["Home", "About Us", "Features", "Solution"];
+export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "about-us",
+    title: "About Us",
+  },
+  {
+    id: "features",
+    title: "Features",
+  },
+  {
+    id: "solution",
+    title: "Solution",
+  },
+];
 
 export const statsList = [
   { number: "3800+", text: "USER ACTIVE" },

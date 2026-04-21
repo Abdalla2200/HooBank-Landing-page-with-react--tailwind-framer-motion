@@ -19,7 +19,7 @@ export default function CTA() {
             anywhere on the planet.
           </p>
         </div>
-        <Button />
+        <Button link="#home" />
       </motion.div>
     </div>
   );

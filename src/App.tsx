@@ -13,14 +13,24 @@ function App() {
   return (
     <div className=" bg-background min-h-screen font-poppins overflow-hidden">
       <Header />
-      <Hero />
+      <section id="home">
+        <Hero />
+      </section>
       <Status />
-      <Features />
-      <Billing />
-      <CardDeal />
+      <section id="about-us">
+        <Features />
+      </section>
+      <section id="features">
+        <Billing />
+      </section>
+      <section id="solution">
+        <CardDeal />
+      </section>
       <Testimonials />
       <Partners />
-      <CTA />
+      <section id="cta">
+        <CTA />
+      </section>
       <Footer />
     </div>
   );

@@ -28,7 +28,7 @@ export default function Hero() {
               Generation
             </h1>
           </div>
-          <div className="cursor-pointer w-[100px] sm:w-[140px] h-[100px] sm:h-[140px] rounded-full border-2 border-[#7DE7EB] text-[#7DE7EB] sm:text-lg font-medium flex justify-center items-center">
+          <a href="#about-us" className="cursor-pointer w-[100px] sm:w-[140px] h-[100px] sm:h-[140px] rounded-full border-2 border-[#7DE7EB] text-[#7DE7EB] sm:text-lg font-medium flex justify-center items-center">
             <div className="">
               <p className="flex items-center gap-[6px]">
                 Get{" "}
@@ -38,7 +38,7 @@ export default function Hero() {
               </p>
               <p>Started</p>
             </div>
-          </div>
+          </a>
         </div>
         <div className="">
           {" "}

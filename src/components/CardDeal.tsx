@@ -19,7 +19,7 @@ export default function CardDeal() {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
           aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
         </p>
-        <Button />
+        <Button link="#cta" />
       </motion.div>
       <motion.img
         initial={{ opacity: 0, scale: 0.7 }}

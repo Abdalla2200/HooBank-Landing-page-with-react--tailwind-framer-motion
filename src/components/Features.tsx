@@ -23,7 +23,7 @@ export default function Features() {
             of credit cards on the market.
           </p>
         </div>
-        <Button />
+        <Button link="#features" />
       </motion.div>
       <motion.div
         initial={{ x: 150, opacity: 0 }}
