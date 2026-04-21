@@ -11,7 +11,7 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <div className=" bg-background min-h-screen font-poppins overflow-hidden">
+    <div className=" bg-background min-h-screen font-poppins">
       <Header />
       <section id="home">
         <Hero />
